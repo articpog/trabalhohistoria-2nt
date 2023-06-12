@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Lora&display=swap);
+
+:root{
+    --cor-fundo : #7c5f47;
+    --cor-hover : #2c1a08;
+    --cor-primaria: #000000;
+}
+
+.topo{
+    margin-left: 50px;
+}
+
+body{
+    background-color: #dcdcdc;
+    font-family: 'Geologica', sans-serif;
+}
+
+.fontes{
+    margin-left: 50px;
+}
+
+.titleD{
+   font-size: 30px;
+   margin-left: 50px;
+
+}
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.dp-menu ul{
+    background-color: var(--cor-fundo);
+    border-radius: 5px;
+}
+
+
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+    border-radius: 40px;
+}
+
+.dp-menu ul li a{   
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block   ;
+    padding: 10px;
+    transition: background 1s;
+    color: #fff;
+}
+
+.dp-menu p {
+    color: #ffff;
+}
+
+.dp-menu ul li a:hover{
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/  
+
+.dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;     
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+
+}
+
+.dp-menu ul ul li{
+    padding: 0;
+}
+
+.dp-menu ul ul {
+    width: 125px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+.pe1 {
+
+    background-color: #dac8b3;
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-top: 20px;
+    margin-right: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+

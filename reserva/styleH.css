@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css2?family=Geologica:wght@100&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Concert+One&family=Diphylleia&family=Geologica:wght@100&family=Grandiflora+One&family=Lora&display=swap);
+
+:root{
+    --cor-fundo : #7c5f47;
+    --cor-hover : #2c1a08;
+    --cor-primaria: #000000;
+}
+
+.topo{
+    margin-left: 50px;
+}
+
+body{
+    background-color: #dcdcdc;
+    font-family: 'Geologica', sans-serif;
+}
+
+.fontes{
+    margin-left: 50px;
+}
+
+.titleD{
+   font-size: 30px;
+   margin-left: 50px;
+
+}
+
+.title{
+    margin-left: 130px;
+    margin-right: 60px;
+    font-family: 'Concert One', sans-serif;
+    font-size: 60px;
+    color: #725e4e ;
+}
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.dp-menu ul{
+    background-color: var(--cor-fundo);
+    border-radius: 5px;
+}
+
+
+.dp-menu ul li{
+    display: inline;
+    position: relative;
+    border-radius: 40px;
+}
+
+.dp-menu ul li a{   
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block   ;
+    padding: 10px;
+    transition: background 1s;
+    color: #ffff;
+}
+
+.dp-menu ul li a:hover{
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/  
+
+.dp-menu ul ul{
+    display: none;
+    left: 0;
+    position: absolute;     
+}
+
+.dp-menu ul li:hover ul{
+    display: block;
+
+}
+
+.dp-menu ul ul li{
+    padding: 0;
+}
+
+.dp-menu ul ul {
+    width: 125px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+.iframeMaps{
+    margin-left: 200px;
+}
+
+.pe{
+    margin-left: 50px;
+}
+
+.analise p {
+    margin-left: 50px;
+}
+
+.profVini{
+    margin-left: 55;
+}
+
+li{
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.apresentation {
+    display: flex;
+}
+
+.pe2 {
+    flex-direction: column;
+}
