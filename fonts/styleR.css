@@ -18,12 +18,14 @@ body{
 .conteudo {
     background-color: #dac8b3;
     margin-left: 60px;
-    padding-top: 10px;
+    padding-top: 2px;
     margin-right: 300px;
     border-radius: 20px;
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     padding-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .fontes{
